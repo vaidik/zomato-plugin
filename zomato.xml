@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Zomato</ShortName>
+<Description>Zomato: Online Food Guide in India</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEXUqKS2Qj3NzMz6+vqVWlVXSkevra2jQj2NPDjo6Ohehj+tQz55dXW9YVzANjbAOTjlzsvBeXSTPjnKko7z6Ofcu7jARkK/v77s3dvy8fGitpCFnXHX19aamJjg39/////DN3wCAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfbCgQSDDDkMcEEAAAAW0lEQVQY032N2wqAIBBEx8oyFcSCIij//zNrbbpA5HnZOfOwA/xibdkxhvhIuKE736PAqsjEgqrPPANO6EQlqHzUpQdAMqId4Zz2W1ulpebb+FkeMs27MhmZ3gG1LQPnGzbzIAAAAABJRU5ErkJggg==
+</Image>
+<Url type="text/html" method="GET" template="http://www.zomato.com/index.php">
+  <Param name="keywords" value="{searchTerms}"/>
+</Url>
+<SearchForm>http://www.zomato.com/</SearchForm>
+</SearchPlugin>
